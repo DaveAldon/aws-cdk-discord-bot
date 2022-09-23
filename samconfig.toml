@@ -1,0 +1,13 @@
+version = 0.1
+[mfa]
+[mfa.deploy]
+[mfa.deploy.parameters]
+stack_name = "sam-app-discord"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-1crc33hdg98fr"
+s3_prefix = "sam-app-discord"
+region = "us-east-1"
+profile = "mfa"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
+parameter_overrides = "StageName=\"Prod\""
+image_repositories = []

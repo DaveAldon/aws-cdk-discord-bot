@@ -1,5 +1,5 @@
 {
-  "name": "bravo-discord-bot",
+  "name": "oculus-start-bot",
   "version": "0.1.0",
   "bin": {
     "oculus-start-bot": "dist/app.js"
@@ -31,6 +31,8 @@
   "scripts": {
     "build": "tsc",
     "watch": "tsc -w",
+    "lint": "eslint src/*/*.ts",
+    "fix-lint": "eslint src/*/*.ts --fix",
     "test": "jest",
     "cdk": "cdk",
     "synth": "cdk synth",
