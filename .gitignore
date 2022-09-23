@@ -1,17 +1,6 @@
-*.env
-*.js
-!jest.config.js
-*.d.ts
 node_modules
-
-# CDK asset staging directory
-.cdk.staging
-cdk.out
-
-# Ignore build outputs
-dist
-coverage
-outputs.json
-cdk.context.json
+.aws-sam
+samconfig.toml
+template.yaml
+.env
 .DS_Store
-mfa.sh
