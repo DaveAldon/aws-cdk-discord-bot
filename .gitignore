@@ -14,3 +14,4 @@ coverage
 outputs.json
 cdk.context.json
 .DS_Store
+mfa.sh
