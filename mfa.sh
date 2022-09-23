@@ -1,7 +1,7 @@
 #!/bin/bash
 
 MFA_CODE=$1
-USERNAME="arn:aws:iam::198399635915:mfa/david.crawford"
+USERNAME=""
 
 SESSION_TOKEN=$(aws sts get-session-token \
 --serial-number ${USERNAME} \
